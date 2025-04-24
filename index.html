@@ -1,27 +1,97 @@
-<!-- File Name: index.html --><!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Anik Pal - Portfolio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f5f5f5;
-      padding: 20px;
+      font-family: 'Arial', sans-serif;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       text-align: center;
     }
-    h1 {
-      color: #333;
+
+    header {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      width: 100%;
     }
-    p {
-      color: #666;
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .container {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      width: 80%;
+      max-width: 800px;
+      margin-top: 30px;
+    }
+
+    .container h2 {
+      color: #2c3e50;
+      font-size: 2rem;
+    }
+
+    .container p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 1rem;
+      color: #777;
+    }
+
+    footer a {
+      color: #3498db;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Hello, I'm Anik Pal</h1>
-  <p>Aspiring Engineer | Learning Python, Data Science &amp; Machine Learning</p>
-  <p>GitHub: <a href="https://github.com/anikpal-dev" target="_blank">anikpal-dev</a></p>
+  <header>
+    <h1>Hello, I'm Anik Pal</h1>
+    <p>Aspiring Engineer | Learning Python, Data Science & Machine Learning</p>
+  </header>
 
-</body></html>
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I'm a passionate student of Electrical and Electronic Engineering, currently learning Python, Data Science, and Machine Learning. I am excited about building innovative solutions and developing my skills in technology.</p>
+
+    <h2>GitHub</h2>
+    <p>Visit my GitHub profile: <a href="https://github.com/anikpal-dev" target="_blank">anikpal-dev</a></p>
+  </div>
+
+  <footer>
+    <p>Contact me at: <a href="mailto:anik@example.com">anik@example.com</a></p>
+  </footer>
+</body>
+</html>
